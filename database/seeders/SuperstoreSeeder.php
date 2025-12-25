@@ -10,7 +10,6 @@ class SuperstoreSeeder extends Seeder
 {
     public function run()
     {
-        // Pastikan settingan baris PHP bisa membaca berbagai format enter (\n, \r)
         ini_set('auto_detect_line_endings', true);
 
         $path = storage_path('app/superstore.csv'); 

@@ -66,7 +66,6 @@ class AuthController extends Controller
             'success' => true,
             'message' => 'Login Berhasil',
             'user' => $user,
-            // Kalau mau pakai token sanctum nanti di sini, tapi sementara user object cukup
         ], 200);
     }
 }
